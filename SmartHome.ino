@@ -27,12 +27,12 @@ unsigned long lastTrigger = 0;
 boolean startTimer = false;
 
 // Auth Token in the Blynk App.
-char auth[] = "s8R17w7R4T56SqxfQaa--gsXkPZyUok2";
+char auth[] = "--------------------------------";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "TTNET_TP-LINK_3509";
-char pass[] = "2pAXaNXx";
+char ssid[] = "------------";
+char pass[] = "------------";
 
 void IRAM_ATTR detectsMovement() {
   // Checks if motion was detected, room is dark, and startTimer is 
